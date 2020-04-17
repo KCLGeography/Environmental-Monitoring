@@ -9,7 +9,7 @@ Open-source environmental monitoring hardware designs
 This work is licensed under a [Creative Commons Attribution 4.0 International
 License][cc-by] - any use of any material here requires attribution.
 
-# Citation Information:
+### Citation Information:
 Chan, K., Schillereff, D., Baas, A., Chadwick, M., Main, B., Mulligan, M., O'Shea, F., Pearce, R., Smith, T.E., van Soesbergen, A., Tebbs, E. and Thompson, J., 2019. Low-cost electronic sensors for environmental research: pitfalls and opportunities. **DOI: To follow**
 
 [![CC BY 4.0][cc-by-image]][cc-by]
