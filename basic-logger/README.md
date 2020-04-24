@@ -2,7 +2,7 @@
 The material in this repository is intended as documentation of the process by which the King's College London environmental monitoring team build our open-source loggers. Though we take care to ensure that the pages are accurate as of the date of publication, Arduino software, libraries, electronic components and interface devices are all subject to variation, change with time, and all introduce the potential for risk. The authors take no responsibility for the consequences of error or for any loss, damage or injury suffered by users or their property as a result of any of the information published on any of these pages, and such information does not form any basis of a contract with readers or users of it. The audience should verify any information provided and only proceed if they have an adequate understanding of electronics and electronics safety.
 
 ## Instructions
-1. Purchase the pre-requisite material listed in the ![Bill-Of-Materials document]().
+1. Source the material listed in the ![Bill-Of-Materials document]().
 2. Connect the logger as shown in the breadboard connection diagram (basic-logger-breadboard.jpg file or shown below). Take care to ensure you connect the battery terminals correctly and make sure you do not leave loose wires (with the potential for short-circuiting) trailing.
 3. Remove the battery pack from the circuit whenever plugging the Arduino into your computer (taking the necessary precautions)
 4. Ensure the DS3234 clock has the correct battery in the correct way around.
