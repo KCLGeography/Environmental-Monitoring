@@ -27,6 +27,15 @@ The material in this repository is intended as documentation of the process by w
 
 ![Basic logger breadboard connection diagram](basic-logger-breadboard.jpg)  
 
+Note that the wires are coloured with the following colouration:
+Red - 3.3V/VCC
+Black - GND
+Blue - CS/SS
+Green - MOSI
+Yellow - MISO
+Brown - CLK
+Orange - SQW/INT
+
 ### Basic logger breadboard circuit schematics (image made with Fritzing):
 
 ![Basic ](basic-logger-schematic.jpg)
