@@ -11,18 +11,29 @@ The material in this repository is intended as documentation of the process by w
 4. Set the correct Arduino (3.3V pro mini) and COM port which the device is connected to.
 #### Clock setup and testing
 4. Download and install the ![DS3234 library](https://github.com/rodan/ds3234) to your Arduino IDE.
-. 
-. flash the rtc_ds3234 example sketch to the Arduino.
-5. Open the serial monitor and ensure the baud rate is set at '9600 baud' and carriage return/line ending is set to 'Both NL & CR'). If connected correctly, your clock should be showing an incrementally increasing time every 5 seconds; if it is not, disconnect the programmer from your computer, recheck the wiring and restart the process.
-6. In the input window, set the time following the format T
-7. plug your Arduino back into your computer and reopen the Serial monitor (you may need to make sure the correct com port is set under Tools > Port). Your clock should be maintaining and Serial printing the time without the need for resetting.
+. Set the Chip Select value to 9 (i.e. change "const int cs = 10;" to "const int cs = 9;") 
+. Find the rtc_ds3234 example (File>Example>DS3234>rtc_ds3234) sketch and flash it to the Pro Mini.
+5. Open the serial monitor and ensure the baud rate is set at '9600 baud' and line ending is set to 'Both NL & CR'). If connected correctly, your clock should be showing an incrementally increasing time every 5 seconds; if it is not, disconnect the programmer from your computer, recheck the wiring and restart the process.
+6. In the input window, set the time following the format TssmmhhWDDMMYYYY and hit Enter (E.g. T001122501052020 for 22:11:00 on Friday 1st May 2020).
+7. plug your Arduino back into your computer and reopen the Serial monitor (you may need to make sure the correct COM port is set under Tools > Port). Your clock should be maintaining and Serial printing the time without the need for resetting.
 
 #### SD card setup and testing
 5. Download and install the ![SDFat library](https://github.com/greiman/SdFat) to your Arduino IDE.
-. Flash the 
-6. Open the serial monitor (ensuring baud rate is set at 9600 and NL/CR).
-7. 
+. Find the QuickStart example (File>Example>SdFat>Quickstart) and flash this to the Pro Mini.
+6. Open the serial monitor (ensuring settings are '9600 baud' and 'both NL & CR').
+7. Type 10 then hit Enter.
+. The Pro Mini should reply with a "Card successfully initialized." message. If not, disconnect the Pro Mini from your computer, recheck the wiring and that the microSD card is formatted correctly and inserted the correct way.
 
+### Pro Mini Temperature Logger sketch
+At this point, you have successfully tested the individual components. We can now upload a basic temperature logger sketch, which takes the temperature from the DS3234 Real-Time-Clock chip and the uncalibrated temperature from the ATMega328p on the Pro Mini. 
+1. Download the ![basic logger test sketch]() and flash it to your Arduino.
+2. Open the Serial Monitor and observe the results.
+
+Unplug the Arduino and check the data has been successfully written to the CSV file on the microSD card. Columns will be formatted: 
+
+
+### Pro Mini Sleeping Temperature Logger sketch
+Finally, 
 
 ### Basic logger breadboard connection diagram (image made with Fritzing):
 
