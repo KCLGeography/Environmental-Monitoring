@@ -17,5 +17,7 @@
 
 ## Calibrating the EC probe
 11. Download and install the [DFRobot_EC Arduino Library](https://github.com/DFRobot/DFRobot_EC/archive/master.zip) within Arduino.
-12. Upload the [ECProbeCalibration.ino] (ECProbeCalibration.ino) sketch and follow the calibration instructions [here] (https://wiki.dfrobot.com/Gravity__Analog_Electrical_Conductivity_Sensor___Meter_V2__K%3D1__SKU_DFR0300#target_3) noting that you should be using the amended calibration sketch you have already installed, and changing the Serial baud rate to 9600.
-13. 
+12. Upload the [ECProbeCalibration.ino](ECProbeCalibration.ino) sketch and follow the calibration instructions [here](https://wiki.dfrobot.com/Gravity__Analog_Electrical_Conductivity_Sensor___Meter_V2__K%3D1__SKU_DFR0300#target_3) noting that you should be using the amended calibration sketch you have already installed, and changing the Serial baud rate to 9600.
+
+## Preparing the final sketch
+13. Back in the [WaterQualityLogger.ino sketch](WaterQualityLogger.ino), set the "sleep_period" to a desirable time and reupload the sketch (note, the maximum period without more significant amendment to the sketch is 59 minutes).
