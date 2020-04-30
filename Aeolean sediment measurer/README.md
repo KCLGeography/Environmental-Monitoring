@@ -9,7 +9,7 @@ Open-source hardware design for High-frequency measurement of wind-blown sand.
 3. Assemble the circuitry following the hookup schematic below or included in this folder (SonicandWenglor.jpg).
 4. Upload the sketch to the Arduino Duo.
 
-# Hook-up schematic (made with Fritzing):
+### Hook-up schematic (made with Fritzing):
 ![Hook-up schematic (made with Fritzing)](SonicandWenglor.jpg)
 
 # License
