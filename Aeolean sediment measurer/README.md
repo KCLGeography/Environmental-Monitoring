@@ -12,6 +12,10 @@ Open-source hardware design for High-frequency measurement of wind-blown sand.
 ### Hook-up schematic (made with Fritzing):
 ![Hook-up schematic (made with Fritzing)](SonicandWenglor.jpg)
 
+### Disclaimer: 
+The material in this repository is intended as documentation of the process by which the King's College London environmental monitoring team build our open-source loggers. Though we take care to ensure that the pages are accurate as of the date of publication, Arduino software, libraries, electronic components and interface devices are all subject to variation, change with time, and all introduce the potential for risk. The authors take no responsibility for the consequences of error or for any loss, damage or injury suffered by users or their property as a result of any of the information published on any of these pages, and such information does not form any basis of a contract with readers or users of it. The audience should verify any information provided and only proceed if they have an adequate understanding of electronics and electronics safety.
+
+
 # License
 This work is licensed under a [Creative Commons Attribution 4.0 International
 License][cc-by] - any use of any material here requires attribution.
