@@ -2,12 +2,12 @@
 
 # Environmental-Monitoring
 This repo contains the open-source environmental monitoring hardware designs detailed in the *Low-cost electronic sensors for environmental research: pitfalls and opportunities* paper. Designs are included in their individual folders:
-### 1. [Basic Logger](https://github.com/KCLGeography/environmental-monitoring/tree/master/basic-logger)
-### 2. Water table depth probe
-### 3. Air Quality logger (TO DO)
-### 4. Water Quality loggers  (TO DO)
-### 5. Time-sequencing lake sediment traps (TO DO)
-### 6. High-frequency measurement of wind-blown sand
+#### 1. [Basic Logger](https://github.com/KCLGeography/environmental-monitoring/tree/master/basic-logger)
+#### 2. Water table depth probe
+#### 3. Air Quality logger (TO DO)
+#### 4. Water Quality loggers  (TO DO)
+#### 5. Time-sequencing lake sediment traps (TO DO)
+#### 6. High-frequency measurement of wind-blown sand
 
 Schematics and build instructions for the **Freestation Automated Weather Stations** and other specific designs can be found at [Freestation.org](http://freestation.org)
 
