@@ -1,7 +1,7 @@
 
 
 ## Instructions
-1. Read and confirm understanding of the disclaimer at the bottom of this page.
+1. Read and confirm the disclaimer (bottom of this page) and CC-BY license usage (main repository).
 2. Source the material listed in the [Bill-Of-Materials document](https://docs.google.com/spreadsheets/d/1BAKtbqieHCemCTPPsL36uj2QXcKh0NGoTecxeYXc90M).
 3. Connect the logger as shown in the breadboard connection diagram (basic-logger-breadboard.jpg file or shown below). Take care to ensure you connect the battery terminals correctly and make sure you do not leave loose wires trailing (with the potential for short-circuiting).
 4. Remove the battery pack from the circuit whenever plugging the Arduino into your computer (taking the necessary precautions).
