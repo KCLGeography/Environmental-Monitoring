@@ -16,7 +16,7 @@
 10. Wait for the reading to occur (every minute) and check that readings are valid in the serial monitor. Results will be in CSV format of Year, month, day, hour, minute, Conductivity voltage, calibrated conductivity (ms/cm), pressure voltage, calibrated temperature (°C), Dissolved Oxygen reading (mg/L).
 
 ### Calibrating the EC probe
-11. Download and install the [DFRobot_EC Arduino Library](https://github.com/DFRobot/DFRobot_EC/archive/master.zip) within Arduino.
+11. Download and install the [DFRobot_EC Arduino Library](https://github.com/DFRobot/DFRobot_EC/archive/master.zip) within your Arduino IDE.
 12. Upload the [ECProbeCalibration.ino](ECProbeCalibration.ino) sketch and follow the calibration instructions [here](https://wiki.dfrobot.com/Gravity__Analog_Electrical_Conductivity_Sensor___Meter_V2__K%3D1__SKU_DFR0300#target_3) noting that you should be using the amended calibration sketch you have already installed, and changing the Serial baud rate to 9600.
 
 ### Preparing the final sketch
