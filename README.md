@@ -1,8 +1,15 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
 # Environmental-Monitoring
-Open-source environmental monitoring hardware designs
+This repo contains the open-source environmental monitoring hardware designs detailed in the *Low-cost electronic sensors for environmental research: pitfalls and opportunities* paper. Designs are included in their individual folders:
+1. Basic Logger
+2. Water table depth probe
+3. Air Quality logger
+4. Water Quality loggers
+5. Time-sequencing lake sediment traps
+6. High-frequency measurement of wind-blown sand
 
+Schematics and build instructions for the Freestation Automated Weather Stations and other specific designs can be found at [Freestation.org](http://freestation.org)
 
 
 # License
