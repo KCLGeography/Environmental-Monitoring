@@ -33,7 +33,7 @@ int ss = 9;
 int AlarmPin = 2; 
 unsigned char wakeup_min;
 struct ts t; 
-uint8_t sleep_period = 10; // the sleep interval in minutes between readings. Currently set to 10 minutes 
+uint8_t sleep_period = 1; // the sleep interval in minutes between readings. Currently set to 10 minutes 
 
 
 //OTHER SENSOR HOUSEKEEPING
