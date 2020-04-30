@@ -12,7 +12,7 @@ Open-source hardware design for Water table logger.
 ### Hook-up diagram (made with Fritzing):
 ![Hook-up schematic (made with Fritzing)](Depth-probe.png)
 
-### Hook-up schematic (made with Fritzing):
+### Circuit schematic (made with Fritzing):
 ![Hook-up schematic (made with Fritzing)](Depth-probe-schematic.jpg)
 
 ### Disclaimer: 
