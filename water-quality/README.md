@@ -8,7 +8,7 @@ Open-source hardware design for the aquatic water quality logger.
 2. Start by following the instructions to build and test the [Basic core logger page](https://github.com/KCLGeography/environmental-monitoring/tree/master/basic-logger).
 
 ### Adding the DO probe
-3. Connect the wires required for the Atlas Scientific DO probe.
+3. Connect the wires connecting the Atlas Scientific DO probe (complete wiring diagram below).
 4. Download the [example code for the Atlas Scientific DO probe](https://www.atlas-scientific.com/_files/code/ino_files/Arduino_UNO_DO_sample_code.zip).
 5. Define rx and tx to be 7 and 8 respectively.
 6. Upload the file and open the Serial Monitor.
@@ -26,6 +26,9 @@ Open-source hardware design for the aquatic water quality logger.
 ### Preparing the final sketch
 13. Back in the [WaterQualityLogger.ino sketch](WaterQualityLogger.ino), set the "sleep_period" to a desirable time and reupload the sketch (note, the maximum period without more significant amendment to the sketch is 59 minutes).
 14. Test that the logger is working properly before deploying.
+
+## Wiring diagram (adapted from Fritzing diagram)
+![Aquatic_probe_wiring.jpg](Aquatic_probe_wiring.jpg)
 
 
 ## Disclaimer: 
