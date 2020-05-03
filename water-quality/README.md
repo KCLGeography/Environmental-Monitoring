@@ -25,7 +25,7 @@ Open-source hardware design for the aquatic water quality logger.
 
 ### Preparing the final sketch
 13. Back in the [WaterQualityLogger.ino sketch](WaterQualityLogger.ino), set the "sleep_period" to a desirable time and reupload the sketch (note, the maximum period without more significant amendment to the sketch is 59 minutes).
-14. Test that the logger is working properly before deploying.
+14. Test that the logger is working properly before deploying.  
 
 ## Wiring diagram (adapted from Fritzing diagram)
 ![Aquatic_probe_wiring.jpg](Aquatic_probe_wiring.jpg)
