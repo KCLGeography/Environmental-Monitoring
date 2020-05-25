@@ -5,7 +5,7 @@ Open-source hardware design for High-frequency measurement of wind-blown sand.
 
 # Instructions
 1. Ensure you have read and understand the disclaimer and license associated with this guide.
-2. Acquire the necessary parts listed in the [Bill of Materials](https://docs.google.com/spreadsheets/d/1BAKtbqieHCemCTPPsL36uj2QXcKh0NGoTecxeYXc90M).
+2. Acquire the necessary parts listed in the [Bill of Materials](https://docs.google.com/spreadsheets/d/1BAKtbqieHCemCTPPsL36uj2QXcKh0NGoTecxeYXc90M/edit#gid=590094508).
 3. Assemble the circuitry following the hookup schematic below or included in this folder [SonicandWenglor.jpg](SonicandWenglor.jpg).
 4. Upload the sketch to the Arduino Duo.
 
