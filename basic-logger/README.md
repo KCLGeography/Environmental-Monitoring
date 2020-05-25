@@ -26,7 +26,7 @@
 
 ### Pro Mini Temperature Logger sketch
 At this point, you have successfully tested the individual components. We can now upload a basic temperature logger sketch, which takes the temperature from the DS3234 RTC (calibrated) and an uncalibrated temperature measurement from the ATMega328p processor and writes them to the microSD card and serial.
-1. Download the ![basic logger test sketch](basiclogger.ino) and flash it to your Arduino.
+1. Download the ![basic logger test sketch](BasicLogger.ino) and flash it to your Arduino.
 2. Open the Serial Monitor and observe the results.
 3. Unplug the Arduino and check the data has been successfully written to the CSV file on the microSD card. Columns will be formatted:
 Year, Month, Date, Hour, Minute, ATmega328 temp, DS3234 temp
