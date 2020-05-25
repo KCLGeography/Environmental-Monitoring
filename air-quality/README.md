@@ -21,7 +21,7 @@ Open-source hardware design for air quality logger measuring particulate matter 
 ![Plantower addition schematic (made with Fritzing)](Plantower.jpg)
 
 ### Adding the Alphasense chemical air quality sensors
-10. Assemble the circuitry following the Alphasense hookup schematic below or included in this folder [Air-quality-diagram.jpg](Air-quality-diagram.jpg). Note: we include a [labelled version](AirQuality-NoWires-Labelled.jpg) without wires should you have trouble identifying parts or pin locations.
+10. Assemble the circuitry following the Alphasense hookup schematic below or included in this folder [Air-quality-diagram.jpg](Air-quality-diagram.jpg). Note: we include a [labelled version without wires](AirQuality-NoWires-Labelled.jpg) should you have trouble identifying parts or pin locations.
 11. Upload the [NOx_PM.ino](NOx_PM.ino) sketch to the Pro Mini and check the serial monitor (results should be displayed and written to the microSD card every minute).
 12. Set the appropriate sleep times and a suitable filename for your data. Remember to check before deployment.
 ![Complete air quality logger schematic (made with Fritzing)](Air-quality-diagram.jpg)
