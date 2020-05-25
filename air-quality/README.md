@@ -9,19 +9,19 @@ Open-source hardware design for air quality logger measuring particulate matter 
 3. Start by following the instructions to build and test the [Basic core logger page](https://github.com/KCLGeography/environmental-monitoring/tree/master/basic-logger).
 
 ### Adding the BME280
-4. Assemble the circuitry following the BME280 hookup schematic below or included in this folder [STEP2_BME280.jpg](STEP2_BME280.jpg).
+4. Assemble the circuitry following the BME280 hookup schematic below or included in this folder: [BME280.jpg](BME280.jpg).
 5. Follow the instructions under 'Install Adafruit_BME280 library' [here] (https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/arduino-test#install-adafruit-bme280-library-2958101-7) to test the BME280, ensuring you have the board set to "Arduino Pro or Pro Mini", processor set to "ATmega328P (3.3V, 8MHz)" and port which you have connected your programmer to (both under the Tools menu). **Note** should the device not work, your BME280 may be on a non-standard address (i.e. not 0x77). You can check it's address by uploading and running [the i2c scanner] (https://playground.arduino.cc/Main/I2cScanner/). Should the address not be the standard, you can change this within the Adafruit BME280 library files (within .../My Documents/Arduino/libraries/Adafruit_BME280_Library/Adafruit_BME280.h)
 6. If working, move to the next section.
-![BME280 addition schematic (made with Fritzing)](STEP2_BME280.jpg)
+![BME280 addition schematic (made with Fritzing)](BME280.jpg)
 
 ### Adding the PM sensor
-7. Assemble the circuitry following the Plantower hookup schematic below or included in this folder [STEP3_Plantower.jpg](STEP3_Plantower.jpg).
+7. Assemble the circuitry following the Plantower hookup schematic below or included in this folder: [Plantower.jpg](Plantower.jpg).
 8. Upload the [Only_PM.ino](Only_PM.ino) sketch to the Pro Mini and check the serial monitor (results should be displayed and written to the microSD card every minute).
 9. The sensor is now a functioning PM logger.
-![Plantower addition schematic (made with Fritzing)](STEP3_Plantower.jpg)
+![Plantower addition schematic (made with Fritzing)](Plantower.jpg)
 
 ### Adding the Alphasense chemical air quality sensors
-10. Assemble the circuitry following the Alphasense hookup schematic below or included in this folder [Air-quality-diagram.jpg](Air-quality-diagram.jpg).
+10. Assemble the circuitry following the Alphasense hookup schematic below or included in this folder [Air-quality-diagram.jpg](Air-quality-diagram.jpg). Note: we include a [labelled version](AirQuality-NoWires-Labelled.jpg) without wires should you have trouble identifying parts or pin locations.
 11. Upload the [NOx_PM.ino](NOx_PM.ino) sketch to the Pro Mini and check the serial monitor (results should be displayed and written to the microSD card every minute).
 12. Set the appropriate sleep times and a suitable filename for your data. Remember to check before deployment.
 ![Complete air quality logger schematic (made with Fritzing)](Air-quality-diagram.jpg)
