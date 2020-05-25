@@ -1,13 +1,25 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
 # Depth Probe Logger
-Open-source hardware design for Water table logger.
+Open-source hardware design for Water table depth probe logger.
 
 # Instructions
 1. Ensure you have read and understand the disclaimer and license associated with this guide.
-2. Acquire the necessary parts listed in the [Bill of Materials](https://docs.google.com/spreadsheets/d/1BAKtbqieHCemCTPPsL36uj2QXcKh0NGoTecxeYXc90M).
-3. Assemble the circuitry following the hookup schematic below or included in this folder [Depth-probe.png](Depth-probe.png) and [Depth-probe-schematic.jpg](Depth-probe-schematic.jpg).
-4. Taking take to ensure you are connecting the programmer correctly, upload the sketch to the 3.3V Pro Mini.
+2. Acquire the necessary parts listed in the [Bill of Materials](https://docs.google.com/spreadsheets/d/1BAKtbqieHCemCTPPsL36uj2QXcKh0NGoTecxeYXc90M/edit#gid=1699271503).
+3. With the exception of the Li-ion battery, assemble the circuitry following the hookup schematic below or included in this folder [Depth-probe.png](Depth-probe.png) and [Depth-probe-schematic.jpg](Depth-probe-schematic.jpg). 
+4. Taking take to ensure you are connecting the programmer correctly. Follow the steps to set/test the DS3234 clock and microSD card module from the [Basic core logger page](https://github.com/KCLGeography/environmental-monitoring/tree/master/basic-logger).
+5. If successful, download and install [Luke Miller's MS5803 (2-bar) library](http://github.com/millerlp/MS5803_02).
+6. Upload the [Depth-logger.ino](Depth-logger.ino) sketch to the 3.3V Pro Mini and check that the MS5803 is outputting expected results.
+7. Drill a 6.5mm hole in the end-cap of the enclosure. Clean after drilling.
+8. Cut a 4cm length of the hose and slide it around the round metal casing of the MS5803.
+9. Begin pushing the open end of the hose through the hole in the end-cap so that ~1cm is protuding through the end.
+10. Apply epoxy resin inside the end-cap.
+11. Push the MS5803 and hose to the end of the end-cap. Apply epoxy generously to the rear of the MS5803 (this is what will hold the MS5803 in place against the water pressure!).
+12. Let the epoxy set then retest to make sure the setup is still working.
+13. **Li-ion batteries are potentially dangerous. If you do not have the skills, qualifications or experience to conduct the next step, we would advise seeking assistance from those who do.** Solder or spot-weld the 18650 battery to the setup.
+14. Connect the TP4056 charger and charge the Li-ion battery. Disconnect once fully charged.
+15. If successful, gently position the logger components into the tubing.
+16. Apply plumbing tape to the threads and close the enclosure. Test against a reliable depth logger or against known depths to check for accuracy.
 
 ### Hook-up diagram (made with Fritzing):
 ![Hook-up schematic (made with Fritzing)](Depth-probe.png)
