@@ -25,15 +25,12 @@
 19. The Pro Mini should reply with a "Card successfully initialized." message. If not, disconnect the Pro Mini from your computer, recheck the wiring and that the microSD card is formatted correctly and inserted the correct way.
 
 ### Pro Mini Temperature Logger sketch
-At this point, you have successfully tested the individual components. We can now upload a basic temperature logger sketch, which takes the temperature from the DS3234 Real-Time-Clock chip and the uncalibrated temperature from the ATMega328p on the Pro Mini. 
-1. Download the ![basic logger test sketch]() and flash it to your Arduino.
+At this point, you have successfully tested the individual components. We can now upload a basic temperature logger sketch, which takes the temperature from the DS3234 RTC (calibrated) and an uncalibrated temperature measurement from the ATMega328p processor and writes them to the microSD card and serial.
+1. Download the ![basic logger test sketch](basiclogger.ino) and flash it to your Arduino.
 2. Open the Serial Monitor and observe the results.
-
-Unplug the Arduino and check the data has been successfully written to the CSV file on the microSD card. Columns will be formatted: 
-
-
-### Pro Mini Sleeping Temperature Logger sketch
-Finally, 
+3. Unplug the Arduino and check the data has been successfully written to the CSV file on the microSD card. Columns will be formatted:
+Year, Month, Date, Hour, Minute, ATmega328 temp, DS3234 temp
+4. The sketch acts as a skeleton upon which can very quickly be adapted for the measurement and logging of other sensors.
 
 ### Basic logger breadboard connection diagram (image made with Fritzing):
 
