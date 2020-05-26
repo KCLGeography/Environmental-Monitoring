@@ -20,23 +20,41 @@ Open-source hardware design for time-sequencing lake sediment traps. in our desi
 8. Connect the battery pack (6xAA recommended for annual deployment) following the wiring diagram below and test that the circuit still works.
 ![Full circuit schematic (made with Fritzing)](LakeSediment.jpg)
 
+## Assembling the hardware
+Disconnect a battery whilst the below is prepared.
+
 ### Preparing the enclosure
-9. Drill a 
+9. Drill a 13mm hole in the center of a quadrant of the bottom of the enclosure. This is for the the cable gland and where the axle will pass through. Ensure that burrs on the edges are removed.
+10. Check the fitting of the stepper, stepper mechanism and axle. If they fit together well, epoxy these together.
+11. Mount the cable gland to the bottom of the enclosure and position the stepper motor in the correct position over the cable gland. Using epoxy, glue the mounting brackets for the stepper motor to the base of the enclosure. Also glue the enclosure to the top of the sediment trap cover.
 
-### Assembling the hardware
-9. Cut the filter such that it fits into the 4" pipe snugly.
-10. Cut the pipe to lengths of ~1m.
-10. Position the foam camping matt against the lake sediment trap top cover and cut around the cover. Mark and cut a small hole where the axle and filter will go through the piece. 
+### Preparing the carousel
+12. Drill holes in the tops of 12 of the sampling bottles, being careful to remove and burrs.
+13. With epoxy, glue the lids of the sampling bottles into the carousel.
 
-11. Using epoxy, glue the pipe, filter and foam camping matt onto the top cover of the lake sediment trap.
+### Preparing the trap top
+14. Cut the filter such that it fits into the 4" pipe snugly.
+15. Position the foam camping matt against the lake sediment trap top cover and cut around the trap cover. Mark and cut a small hole where the axle and filter will go through the piece - the holes should accommodate the axle and filter bottom snugly. 
+16. Epoxy the prepared camping matt to the sediment trap top.
+17. Cut the pipe to lengths of ~1m.
+18. Using epoxy, glue the filter and pipe to the top cover of the lake sediment trap. Wait for this to dry.
+19. Put some silicon grease along the section of axle which will rotate within the gland.
+20. Push the stepper and axle through the enclosure and mount the stepper motor to the brackets with nuts and bolts. Glue the axle as far through the sediment trap top as it will go whilst still mounted to the stepper in the correct position. The top of the carousel should be snug against the foam.
+21. Wait for this to dry then test that it still works.
+
+### Waterproofing
+22. Apply silicon grease to the lid of the enclosure for waterproofing. 
+23. With the stepper motor disconnected and all components except the stepper absent, close the enclosure and verify the waterproofing of the enclosure in a sink, bathtub or bucket.
+24. Test that the circuit still works as expected before commenting out the minutely test code section in the set alarm subroutine and commenting in the deployment code. Flash the deployment version of the software to the Arduino.
+25. You may want to melt and pour candle wax into the enclosure to encase the logger components to improve waterproofing if deploying at greater depths (>3m); if opting to do this, ensure you have enough space for the batteries.
+
+### Final preparations
+26. Reconnect the stepper, connect the batteries and place all the components inside and close the enclosure.
+27. Mount the sediment trap such that the pipe is vertical in the water column. This is best done by zip-tying to structures or buoy lines.
 
 
 
-. Test that the circuit still works, before commenting out the minutely test code section in the set alarm subroutine and commenting in the deployment code.
-
-
-
-### Disclaimer: 
+## Disclaimer: 
 The material in this repository is intended as documentation of the process by which the King's College London environmental monitoring team build our open-source loggers. Though we take care to ensure that the pages are accurate as of the date of publication, Arduino software, libraries, electronic components and interface devices are all subject to variation, change with time, and all introduce the potential for risk. The authors take no responsibility for the consequences of error or for any loss, damage or injury suffered by users or their property as a result of any of the information published on any of these pages, and such information does not form any basis of a contract with readers or users of it. The audience should verify any information provided and only proceed if they have an adequate understanding of electronics and electronics safety.
 
 
