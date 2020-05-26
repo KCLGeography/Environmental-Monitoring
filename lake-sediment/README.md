@@ -20,11 +20,15 @@ Open-source hardware design for time-sequencing lake sediment traps. in our desi
 8. Connect the battery pack (6xAA recommended for annual deployment) following the wiring diagram below and test that the circuit still works.
 ![Full circuit schematic (made with Fritzing)](LakeSediment.jpg)
 
+### Preparing the enclosure
+9. Drill a 
+
 ### Assembling the hardware
 9. Cut the filter such that it fits into the 4" pipe snugly.
 10. Cut the pipe to lengths of ~1m.
-10. Position the foam camping matt against the lake sediment trap and Use expoxy to glue the foam camping matt to the top cover of the lake sediment trap.
-11. Using epoxy, glue the pipe and filter onto the top cover of the lake sediment trap.
+10. Position the foam camping matt against the lake sediment trap top cover and cut around the cover. Mark and cut a small hole where the axle and filter will go through the piece. 
+
+11. Using epoxy, glue the pipe, filter and foam camping matt onto the top cover of the lake sediment trap.
 
 
 
