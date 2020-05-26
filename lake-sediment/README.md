@@ -1,29 +1,31 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
 # Time-sequencing lake sediment traps
-Open-source hardware design for time-sequencing lake sediment traps. in our design, the carousel rotates every month and exposes a new sedement trap, which collects sedement in the water column. 
+Open-source hardware design for time-sequencing lake sediment traps. in our design, the carousel rotates every month and exposes a new sediment trap, which collects sediment in the water column. 
 
 ## Instructions:
 1. Read and confirm the declaration and license associated with these instructions.
 2. Ensure you have purchased all the necessary parts listed in the [Bill of Materials sheet](https://docs.google.com/spreadsheets/d/1BAKtbqieHCemCTPPsL36uj2QXcKh0NGoTecxeYXc90M/edit#gid=1020050693).
 3. In this design, we solder screw terminals to the components for more robust deployment, though direct soldering onto the components would be more secure. You can also adapt the instructions to using a breadboard. Start by assembling the basic logger by assembling the wiring diagram of the basic logger below.
 4. Follow the test instructions on the [Basic core logger page](https://github.com/KCLGeography/environmental-monitoring/tree/master/basic-logger) to set and test the clock and microSD card communication.
-![Soldered Basic Logger schematic (made with Fritzing)](LakeSedementBasicLogger.jpg)
+![Soldered Basic Logger schematic (made with Fritzing)](LakeSedimentBasicLogger.jpg)
 
 ### Adding the Relay
-5. Add the Relay and communication ports for the stepper motor following the assembly diagram below or included in this folder: [LakeSedementRelay.jpg](LakeSedementRelay.jpg).
-6. Upload the [LakeSedementTrap sketch](LakeSedementTrap.ino).
+5. Add the Relay and communication ports for the stepper motor following the assembly diagram below or included in this folder: [LakeSedimentRelay.jpg](LakeSedimentRelay.jpg).
+6. Upload the [LakeSedimentTrap sketch](LakeSedimentTrap.ino).
 7. The stepper motor should rotate and the relay should click on/off. Though we could run the stepper without direct powering (i.e. without the need for the relay), it is more stable to run with this.
-![Stepper and relay circuit schematic (made with Fritzing)](LakeSedementRelay.jpg)
+![Stepper and relay circuit schematic (made with Fritzing)](LakeSedimentRelay.jpg)
 
 ### Connecting the power pack
 8. Connect the battery pack (6xAA recommended for annual deployment) following the wiring diagram below and test that the circuit still works.
-![Full circuit schematic (made with Fritzing)](LakeSedement.jpg)
+![Full circuit schematic (made with Fritzing)](LakeSediment.jpg)
 
 ### Assembling the hardware
 9. Cut the filter such that it fits into the 4" pipe snugly.
 10. Cut the pipe to lengths of ~1m.
-11. Using epoxy, glue the pipe and filter onto the cover of the lake sedement trap.
+10. Position the foam camping matt against the lake sediment trap and Use expoxy to glue the foam camping matt to the top cover of the lake sediment trap.
+11. Using epoxy, glue the pipe and filter onto the top cover of the lake sediment trap.
+
 
 
 . Test that the circuit still works, before commenting out the minutely test code section in the set alarm subroutine and commenting in the deployment code.
