@@ -50,7 +50,7 @@ Disconnect a battery whilst the below is prepared.
 
 ### Final preparations
 26. Reconnect the stepper, connect the batteries and place all the components inside and close the enclosure.
-27. Mount the sediment trap such that the pipe is vertical in the water column. This is best done by zip-tying to structures or buoy lines.
+27. Mount the sediment trap such that the pipe is vertical in the water column. Refer to our article for more specific mounting information.
 
 
 
