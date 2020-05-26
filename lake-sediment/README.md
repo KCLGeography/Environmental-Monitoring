@@ -36,7 +36,7 @@ Disconnect a battery whilst the below is prepared.
 14. Cut the filter such that it fits into the 4" pipe snugly.
 15. Position the foam camping matt against the lake sediment trap top cover and cut around the trap cover. Mark and cut a small hole where the axle and filter will go through the piece - the holes should accommodate the axle and filter bottom snugly. 
 16. Epoxy the prepared camping matt to the sediment trap top.
-17. Cut the pipe to lengths of ~1m.
+17. Cut the pipe to a length of 75cm.
 18. Using epoxy, glue the filter and pipe to the top cover of the lake sediment trap. Wait for this to dry.
 19. Put some silicon grease along the section of axle which will rotate within the gland.
 20. Push the stepper and axle through the enclosure and mount the stepper motor to the brackets with nuts and bolts. Glue the axle as far through the sediment trap top as it will go whilst still mounted to the stepper in the correct position. The top of the carousel should be snug against the foam.
