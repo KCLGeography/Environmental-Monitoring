@@ -9,7 +9,7 @@ This repo contains the open-source environmental monitoring hardware designs det
 **5. [Time-sequencing lake sediment trap](https://github.com/KCLGeography/environmental-monitoring/blob/master/lake-sediment)**  
 **6. [High-frequency measurements of wind-blown sand](https://github.com/KCLGeography/environmental-monitoring/tree/master/Aeolean-sediment-measurer)**  
 
-Schematics and build instructions for the **Freestation Automated Weather Stations** and other specific designs can be found at [Freestation.org](http://freestation.org)
+Schematics and build instructions for the **Freestation Automated Weather Stations** and other specific designs can be found at [Freestation.org](http://www.freestation.org)
 
 
 # License
