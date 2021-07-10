@@ -63,7 +63,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International
 License][cc-by] - any use of any material here requires attribution.
 
 ### Citation Information:
-Chan, K., Schillereff, D., Baas, A., Chadwick, M., Main, B., Mulligan, M., O'Shea, F., Pearce, R., Smith, T.E., van Soesbergen, A., Tebbs, E. and Thompson, J., 2019. Low-cost electronic sensors for environmental research: pitfalls and opportunities. **DOI: To follow**
+Chan, K., Schillereff, D., Baas, A., Chadwick, M., Main, B., Mulligan, M., O'Shea, F., Pearce, R., Smith, T.E., van Soesbergen, A., Tebbs, E. and Thompson, J., 2020. Low-cost electronic sensors for environmental research: pitfalls and opportunities. <em>Progress in Physical Geography: Earth and Environment</em> **[DOI:10.1177/0309133320956567](https://doi.org/10.1177/0309133320956567)**
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
